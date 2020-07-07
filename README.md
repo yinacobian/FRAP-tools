@@ -31,10 +31,10 @@ Fragment Recruitment plots from FRAP
 
 The arguments for fragplot2.sh are: 
 
-[path to database containing folder] $1
-[database fasta file name] $2
-[path to dataset containing folder] $3
-[path to output folder] $4
-[dataset name] $5
+* [path to database containing folder] $1
+* [database fasta file name] $2
+* [path to dataset containing folder] $3
+* [path to output folder] $4
+* [dataset name] $5
 
 `bash fragplot2.sh ~/FRAP-tools/DB genomes.fasta ~/FRAP-tools/DS ~/FRAP-tools/results dataset1`
