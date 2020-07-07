@@ -3,7 +3,7 @@ Fragment Recruitment plots from FRAP
 
 1. Download this repository
 
-'git clone '
+`git clone`
 
 1. Create a multifasta file with all the genomes for which you want Fragment Recruitment plots
 
