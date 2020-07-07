@@ -5,10 +5,23 @@ Fragment Recruitment plots from FRAP
 
 `git clone https://github.com/yinacobian/FRAP-tools.git`
 
-1. Create a multifasta file with all the genomes for which you want Fragment Recruitment plots
+2. Go to the FRAP-tools folder
+
+`cd FRAP-tools`
+
+3. Create a directory for the reference genomes
+
+`mkdir DB`
+
+4. Create a directory for the datasets
+
+`mkdir DS`
+
+5. Create a multifasta file with all the genomes for which you want Fragment Recruitment plots
 
   The header of each fasta file should have an ID and a sequence description, there should be an space betrween the ID and the sequence description
   
-2. Create a folder with the datasets
+
+
 3. Run fragplot2.sh
 
