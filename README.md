@@ -19,9 +19,13 @@ Fragment Recruitment plots from FRAP
 
 5. Create a multifasta file with all the genomes for which you want Fragment Recruitment plots
 
-  The header of each fasta file should have an ID and a sequence description, there should be an space betrween the ID and the sequence description
+  The header of each fasta file should have an ID and a sequence description, there should be an space between the ID and the sequence description
   
+  Put the multifasta file inside the reference genomes directory
+  
+6. Put the dataset inside the datasets directory
 
+7. Get the name of the dataset (anything that is before .fasta)
 
-3. Run fragplot2.sh
+8. Run fragplot2.sh
 
