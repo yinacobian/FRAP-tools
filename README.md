@@ -21,11 +21,13 @@ Fragment Recruitment plots from FRAP
 
   The header of each fasta file should have an ID and a sequence description, there should be an space between the ID and the sequence description
   
-  Put the multifasta file inside the reference genomes directory
+6. Put the multifasta file inside the reference DB directory
   
-6. Put the dataset inside the datasets directory
+ `In this example the database file is called: reference-genomes.fasta`
+  
+7. Put the dataset inside the DS directory
 
-7. Get the name of the dataset (anything that is before .fasta)
+`In this example the dataset file is called: metagenome1.fasta`
 
 8. Run fragplot2.sh
 
@@ -37,4 +39,4 @@ The arguments for fragplot2.sh are:
 * [path to output folder] $4
 * [dataset name, withouth the .fasta extension] $5
 
-`bash fragplot2.sh ~/FRAP-tools/DB genomes.fasta ~/FRAP-tools/DS ~/FRAP-tools/results dataset1`
+`bash fragplot2.sh ~/FRAP-tools/DB reference-genomes.fasta ~/FRAP-tools/DS ~/FRAP-tools/results metagenome1`
