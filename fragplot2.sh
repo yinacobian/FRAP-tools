@@ -8,8 +8,8 @@
 #[path to output folder] $4
 #[dataset name] $5
 
-#bash fragplot.sh ....
-#bash fragplot.sh /home/acobian/cobian2018_CFRR/mg/P10_frap_plots_bacteria/CF01mgD8/DB bacteriagenomes.fasta /home/acobian/cobian2018_CFRR/mg/P03_polished/CF01mgD8 /home/acobian/cobian2018_CFRR/mg/P10_frap_plots_bacteria/CF01mgD8/vsbacteria polished_CF01mgD8
+#bash fragplot2.sh ....
+#bash fragplot2.sh /home/acobian/cobian2018_CFRR/mg/P10_frap_plots_bacteria/CF01mgD8/DB bacteriagenomes.fasta /home/acobian/cobian2018_CFRR/mg/P03_polished/CF01mgD8 /home/acobian/cobian2018_CFRR/mg/P10_frap_plots_bacteria/CF01mgD8/vsbacteria polished_CF01mgD8
 
 # $1 is the database complete path 
 # $2 is database fasta file
