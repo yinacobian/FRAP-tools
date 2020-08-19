@@ -21,7 +21,7 @@ Fragment Recruitment plots from FRAP
 
   The header of each fasta file should have an ID and a sequence description, there should be an space between the ID and the sequence description
   
-6. Put the multifasta file inside the reference DB directory
+6. Put the multifasta file inside the DB directory
   
  `In this example the database file is called: reference-genomes.fasta`
   
